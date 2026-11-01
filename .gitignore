@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+*.spec
+icons/out/
+.github
+.vscode
+.idea/
+
+# Configuração local (caminhos absolutos da máquina)
+config.json
+
+# Segredos e credenciais
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+
+# Logs, diagnósticos e temporários
+*.log
+*.tmp
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Conteúdo do jogo (protegido por direitos autorais) e derivados
+*.pak
+*.uvs
+assets/base/
+assets/molduras/
+assets/silhuetas/
+assets/padroes_banner/
+referencias/
+
+nexus_header.png
+
+# Ícones gerados pelo usuário
+icons/

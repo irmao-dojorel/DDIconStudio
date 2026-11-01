@@ -1,0 +1,30 @@
+DDIconStudio
+============
+
+Gerador de icones de vocacao do DDCore para Dragon's Dogma 2: icone da vocacao,
+simbolo do painel da Guilda e banner, montados num PAK pronto para o jogo.
+
+Requisitos: Windows 10/11 64 bits. Nao precisa instalar Python.
+
+Como usar
+---------
+1. Extraia a pasta DDIconStudio em qualquer lugar e abra DDIconStudio.exe.
+2. Gerador: escolha a moldura, as cores, a silhueta (biblioteca ou importada) e o
+   banner; salve o icone no numero da vocacao (16 a 85).
+3. Editor de silhuetas: desenhe silhuetas proprias para o icone (480x480) ou
+   padroes para o banner (512x1024); elas aparecem na biblioteca do Gerador.
+4. Montar PAK: gera icons\out\DDCore_Icons.pak (com previas e report.txt).
+   Instale esse PAK no jogo como qualquer outro mod .pak.
+
+Pastas
+------
+assets\            Arquivos do aplicativo. Nao apague.
+assets\base\       PAK base vanilla e modelos dos banners.
+assets\silhuetas\  Sua biblioteca de silhuetas.
+assets\padroes_banner\  Sua biblioteca de padroes de banner.
+icons\             Seus icones: NN.png, NN_arma.png e NN_banner.png (NN = vocacao).
+icons\out\         Saida do Montar PAK.
+config.json        Preferencias (criado ao fechar o app; pode ser apagado).
+
+Para atualizar o app, copie as pastas assets\silhuetas, assets\padroes_banner e
+icons\ da versao antiga para a nova.

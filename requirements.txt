@@ -1,0 +1,6 @@
+pillow>=11
+numpy>=2
+flet[desktop,cli]>=1.0,<2
+xxhash>=3.5
+zstandard>=0.23
+pyinstaller>=6.16
